@@ -1,0 +1,49 @@
+.bgimage {
+	background-image: url('../images/work.jpg');
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 200px;
+	-webkit-filter: grayscale(100%);  //Chrome, Safari, Opera 
+    filter: grayscale(100%);
+    z-index: 2;
+}
+
+.header-text {
+	color: rgb(247, 235, 153);
+	z-index: 1;
+}
+
+h3 {
+	padding: 0px;
+}
+h2 {
+	text-decoration: underline;
+}
+img {
+	height: 90px;
+	width: 150px;
+	border-radius: 8px;
+	padding-top: 0px;
+	padding-right: 5px;
+}
+
+li {
+	list-style: none;
+}
+
+.content {
+	background-color: rgb(247, 235, 153);
+}
+body {
+	background-color: rgb(242, 241, 233);
+}
+
+footer {
+	background-color: rgb(43, 43, 40);
+
+}
+
+footer p {
+	color: rgb(242, 241, 233);
+}
